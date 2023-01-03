@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Campton", sans-serif;
+  
+}
+
+.container {
+  height: 1024px;
+  width: 1440px;
+  background-image: url("../img/bg.jfif");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container-child {
+  width: 1160px;
+  height: 792px;
+  border-radius: 50px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+}
+.left-content {
+  height: 100%;
+  width: 508px;
+  background-color: #084b3e;
+  padding: 50px 52px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-box {
+  width: 172px;
+  height: 95px;
+  position: relative;
+}
+.better-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -17px;
+  left: -20px;
+}
+
+.description {
+  font-size: 39px;
+  line-height: 45px;
+  font-weight: 500;
+  color: rgba(249, 226, 186, 1);
+}
+
+.right-content {
+  padding: 55px 52px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form-title {
+  color: black;
+  font-size: 34px;
+  line-height: 42px;
+  width: 421px;
+  font-weight: 500;
+}
+
+.form {
+  width: 450px;
+}
+.input-box {
+  width: 100%;
+  border-bottom: 1px solid rgba(52, 52, 52, 1);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 47px;
+}
+.label {
+  font: 16px;
+  line-height: 19px;
+}
+.important {
+  color: rgba(227, 61, 95, 1);
+}
+
+.input {
+  outline: none;
+  padding: 4px;
+  border: none;
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  padding: 23px 43px;
+  background-color: #00c38b;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-info, .login-info {
+  font-size: 14px;
+  color: rgba(189, 189, 189, 1);
+  display: block;
+}
+.login{
+    color: rgba(25, 176, 126, 1);
+}
+
